@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image:linear-gradient(360deg, #3d3d3d, black);
+    text-align: right;
+    color: white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.listlogo li{
+    margin-bottom: 60px;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    list-style: none;
+
+    
+}
+h2{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+    
+.box{
+     max-width: 400px;
+     min-height: 150vh;
+     overflow: hidden;
+     position: relative;
+     align-items: center;
+     justify-items: center;
+     background-image: url(../imagens/fundo4.jpg);
+     
+
+}
+.container{
+    align-items: center;
+    justify-items: center;
+   
+    
+}
+.logo{
+    width: 80px;
+    border-radius: 20px;
+    left: 40%;
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px white;
+ 
+}
+.listalogo img{
+    position: relative;
+    top:50px;
+
+}
+.redesimg{
+    width: 50px;
+    position: relative;
+    left:45%;
+    
+    bottom: 10px;
+}
+
+
+footer img{
+width: 200px;
+margin-left: 97px;
+border: 5px solid #FF8000;
+}
+.img2{
+    height: 220px;
+    margin-left: 97px;
+    margin-top: 5px;
+}
+
+    span{
+        color: white;
+        font-size: 20px;
+    }
+
+button{
+  
+	background-color: #FF8000;
+	box-shadow: #FAAC58 4px 4px 0px;
+	border-radius: 8px;
+	transition: transform 200ms, box-shadow 200ms;
+	padding: 12px;
+	border: none;
+    position: relative;
+
+    width: 100%;
+}
+button:active {
+	transform: translateY(4px) translateX(4px);
+	box-shadow: #FF8000 0px 0px 0px;
+}
