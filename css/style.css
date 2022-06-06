@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -9,16 +10,18 @@ body{
 	
 	background:linear-gradient(45deg, #FFD902, #FF8000, #FFD902)no-repeat;
 	background-size: 100% 200%;
-	animation: colors 15s ease infinite;
+	animation: colors 5s ease-in-out infinite;
 	background-image: url(../imagem/l2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 @keyframes colors{
 	0%{
 		background-position: 0% 50%;
 
 	}
+	
 	50%{
 		background-position: 100% 50%;
 
@@ -38,13 +41,15 @@ body{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: relative;
 	
 }
 .logo{
 	width: 150px;
 	border-radius: 20px;
 	margin-top: 30px;
-	box-shadow: 6px 6px 6px #FFAC00;
+	box-shadow: 3px 3px 6px 6px #FFAC00;
 	
 	
 
@@ -52,9 +57,9 @@ body{
 h1{
 	
 	color: white;
-	font-size: 27px;
+	font-size: 30px;
 	font-weight: normal;
-	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-family:'Bebas Neue', cursive;
 	padding: 10px;
 	border-radius: 10px;
 	background: rgba(0, 0, 0, 0.2);
@@ -72,6 +77,8 @@ h1{
 	transform: translateX(-50%);
 	
 }
+
+
 button {
 	transform: translateX(-2px);
   display: inline;
@@ -86,7 +93,7 @@ button {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  box-shadow: 5px 5px #191007;
+  
 }
 
 button span {
@@ -126,4 +133,7 @@ footer{
 }
 p{
 	font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+	position: absolute;
+	left: 0;
 }
