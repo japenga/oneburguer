@@ -10,7 +10,7 @@ body{
 	
 	background:linear-gradient(45deg, #FFD902, #FF8000, #FFD902)no-repeat;
 	background-size: 100% 200%;
-	animation: colors 5s ease-in-out infinite;
+	animation: colors 17s ease-in-out infinite;
 	background-image: url(../imagem/l2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
